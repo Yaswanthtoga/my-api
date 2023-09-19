@@ -13,7 +13,6 @@ Use git clone command to download the project.
 ```bash
 git clone https://github.com/Yaswanthtoga/my-api.git
 ```
-![Alt Text]()
 
 Open your favourite terminal where you cloned project should be at the root and run these commands
 
