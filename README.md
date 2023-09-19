@@ -11,7 +11,7 @@
 Use git clone command to download the project.
 
 ```bash
-git clone 
+git clone https://github.com/Yaswanthtoga/my-api.git
 ```
 ![Alt Text]()
 
