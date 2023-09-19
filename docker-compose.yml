@@ -1,0 +1,18 @@
+version: '3'
+services:
+  app:
+    build:
+      context: ./app
+    ports:
+      - "3000:3000"
+    depends_on:
+      - db
+
+  db:
+    build:
+      context: ./db
+    volumes:
+      - db_data:/var/lib/mongodb  # This is where MongoDB stores its data inside the container
+
+volumes:
+  db_data:
